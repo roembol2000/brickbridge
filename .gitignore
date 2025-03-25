@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+pnpm-lock.yaml
+
+# builds
+dist/
+
+# os
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.sw?
+*.sublime-*
+
+# logs
+*.logs
+
+# env
+.env
+.env.*

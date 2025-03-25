@@ -1,0 +1,23 @@
+{
+  "name": "brickbridge",
+  "version": "0.1.0",
+  "description": "Control NXT bricks via JavaScript",
+  "main": "dist/brickbridge.umd.js",
+  "module": "dist/brickbridge.js",
+  "exports": {
+    "import": "./dist/brickbridge.js",
+    "require": "./dist/brickbridge.js"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "dev": "serve ."
+  },
+  "author": "Roemer Peters",
+  "license": "MIT",
+  "packageManager": "pnpm@10.6.5",
+  "devDependencies": {
+    "esbuild": "^0.25.1",
+    "serve": "^14.2.4"
+  },
+  "type": "module"
+}

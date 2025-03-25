@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>BrickBridge example page</title>
+  </head>
+  <body>
+    <h1>BrickBridge Demo</h1>
+
+    <div id="console"></div>
+
+    <h2>Connect to nxt</h2>
+    <button id="btn_connect_to_nxt">connect</button>
+
+    <h2>Get firmware version</h2>
+    <button id="btn_get_firmware">Get</button>
+
+    <h2>Get device info</h2>
+    <button id="btn_get_device_info">Get</button>
+
+    <h2>Set brick name</h2>
+    <p><i>Max 15 characters</i></p>
+    <input type="text" id="input_brick_name" />
+    <button id="btn_set_brick_name">Set</button>
+
+    <h2>Upload program</h2>
+    <input type="file" id="input_upload_program" />
+    <button id="btn_upload_program">Upload</button>
+
+    <h2>Stop program</h2>
+    <button id="btn_stop_program">Stop</button>
+
+    <h2>List files</h2>
+    <button id="btn_list_files">List</button>
+
+    <h2>Delete file</h2>
+    <input type="text" id="input_delete_file" />
+    <button id="btn_delete_file">Delete</button>
+
+    <script src="../dist/brickbridge.umd.dev.js"></script>
+    <script type="module" src="demo.js"></script>
+  </body>
+</html>
