@@ -1,3 +1,5 @@
+// BrickBridge - Copyright (c) 2025 Roemer Peters - MIT License
+
 /**
  * Communication interface for interacting with NXT
  */
